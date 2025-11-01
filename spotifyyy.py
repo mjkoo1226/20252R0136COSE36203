@@ -2,8 +2,13 @@ import requests
 import base64
 import pprint
 
-CLIENT_ID = "f93ae84326014ffcb5bbee3eeecff935"
-CLIENT_SECRET = "f742454cfd1049d697a0819376222a93"
+from dotenv import load_dotenv
+import os
+
+load_dotenv()
+
+CLIENT_ID = os.environ.get("CLIENT_ID")
+CLIENT_SECRET = os.environ.get("CLIENT_SECRET")
 
 auth_url = "https://accounts.spotify.com/api/token"
 auth_header = base64.b64encode(f"{CLIENT_ID}:{CLIENT_SECRET}".encode()).decode("ascii")
