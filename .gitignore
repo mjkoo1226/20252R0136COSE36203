@@ -6,4 +6,3 @@
 # ignore all files in any directory named temp
 catboost_info/
 __pycache__/
-test/
