@@ -1,3 +1,11 @@
+"""
+Needs **Spotify API keys in .env** for this file to work!   
+But at the project, since using the Spotify API was canceled, we don't use this file.   
+If you need to start this python file or module anyway, please contact me personally for the the API key.   
+I would be glad to provide you.   
+*Email : minjun4144@naver.com*   
+"""
+
 import requests
 import base64
 import pprint
