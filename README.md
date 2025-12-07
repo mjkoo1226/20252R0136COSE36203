@@ -14,6 +14,8 @@ Git for COSE362 Korea University Machine Learning Team Project
 ---
 
 *used module versions*   
+
+
 `python      3.12.7`  
 `pandas      2.2.2`  
 `numpy       1.26.4`   
